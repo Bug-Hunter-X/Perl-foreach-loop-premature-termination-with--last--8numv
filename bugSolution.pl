@@ -1,0 +1,1 @@
+my @array = (1..10); foreach my $i (@array) { if ($i == 5) { print "Reached 5\n"; next; } print "$i "; } #Alternative solution using a while loop my @array = (1..10); my $i = 0; while ($i < @array) { if ($array[$i] == 5) { print "Reached 5\n"; $i++; next; } print "$array[$i] "; $i++; }
